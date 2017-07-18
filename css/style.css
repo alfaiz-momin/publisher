@@ -1,0 +1,293 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.wrapper{
+ padding: 0px;
+ margin: 0px;
+ border: 0px;
+}
+.col-sm-12{
+	padding-right: 0px;
+}
+.seperator {
+	width: 50px;
+    border-bottom: 3px solid #2F9AE0;
+    margin: 10px auto;
+}
+.sky-color{
+	color: #15CAE7;
+}
+.thin {
+	font-weight: bold;
+	font-family: "Lato";
+}
+.gold-color {
+	color: #FFA715;
+}
+.gray-color{
+	color: #9B9B9B;
+}
+/*==========top bar start*/
+.top_bar {
+	background-color: #347AB6;
+	height: 50px;
+}
+.top-bar-btn {
+    float: right;
+    margin-top: -25px;
+    padding: 0px 20px;
+}
+.top-bar-btn li{
+	display: inline;
+	list-style: none;
+	margin-right: 10px;
+	color: #fff;
+}
+.logo {
+	padding-top: 7px;
+	padding-left: 10px;
+}
+/*============top bar End*/
+
+/*============Hero image/text start*/
+.hero-section {
+	background-image: url(../images/hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 430px;
+}
+.hero-text {
+    padding: 20% 2% 0% 0%;
+    color: #fff;
+}
+/*============Hero image/text END*/
+
+/*=========section1 start*/
+.section1{
+	margin-top: 5%;
+}
+.section1-heading {
+	padding: 0% 6% 0% 3%;
+}
+.section1-text{
+    margin: 2% 0%;
+    padding: 2%;
+}
+.section1-text>p{
+	color: #9F9F9F;
+}
+/*=========section1 END*/
+
+/*===========section2 start*/
+.section2 {
+	margin-top: 5%;
+	padding: 2%;
+}
+.section2-heading {
+	margin-bottom: 5%;
+	padding: 0% 3% 0% 0%;
+}
+.sec2-left-text1 {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.sec2-right-text {
+	padding: 3%;
+}
+.sec2-left-text2 {
+	border-left: 5px solid #15CAE7;
+	padding-left: 10px;
+	margin: 2% 0% 0% 5%;
+}
+/*===========section2 END*/
+
+/*===========section3 start*/
+.section3 {
+	margin-top: 5%;
+}
+.sec3-box {
+	height: 200px;
+    margin-bottom: 10%;
+}
+.sec3-box-img {
+	float: left;
+	width: 20%;
+	padding: 2%;
+}
+.sec3-box-text {
+	float: right;
+	width: 80%;
+	padding: 0% 2% 0% 0%;
+}
+.sec3-box-text>h2{
+	font-size: 22px;
+}
+.section3-img {
+	padding: 15% 2% 0% 2%;
+}
+.section3-text {
+	padding: 10% 2% 0% 2%;
+}
+/*===========section3 END*/
+
+/*==========section4 start*/
+.section4 {
+	margin-top: 5%;
+}
+.sec4-right {
+	padding: 5% 3% 0% 3%;
+}
+.sec4-lf-img{
+	padding: 3%;
+}
+.sec4-rh-text>h1{
+	font-size: 22px;
+}
+.sec4-rh-text {
+	padding-left: 2%;
+}
+.sec4-middle {
+	padding: 5%;
+}
+/*==========section4 END*/
+
+/*==========section5 start*/
+.section5 {
+	margin-top: 5%;
+	padding: 0% 5%;
+}
+.sec5-box {
+	height: 200px;
+	margin-top: 10%;
+}
+.sec5-box-img {
+    float: left;
+    width: 20%;
+    padding: 2%;
+    margin-top: 5%;
+}
+.sec5-box-text {
+	float: right;
+	width: 80%;
+}
+.sec5-box-text>h3 {
+	font-size: 20px;
+}
+/*==========section5 END*/
+
+/*========== section6 start*/
+.section6 {
+	background-image: url(../images/section6.jpg);
+	background-size: cover;
+	height: 500px;
+	margin-top: 5%;
+}
+.sec6-img {
+	margin: 0 auto;
+	padding-top: 5%;
+	width: 100px;
+}
+.sec6-text {
+	padding: 3% 5% 0% 2%;
+	color: #fff;
+}
+
+/*========== section6 END*/
+
+/*===========section7 start*/
+.section7 {
+	padding: 2%;
+}
+.sec7-text {
+	padding: 25% 2% 0% 2%;
+}
+.sec7-img {
+	padding: 5%;
+}
+.sec7-box {
+	height: 150px;
+	margin-top: 10%;
+}
+.sec7-box-img {
+	float: left;
+	width: 20%;
+	padding: 2%;
+	margin-top: 2%;
+}
+.sec7-box-text {
+	float: right;
+	width: 80%;
+}
+.sec7-box-text>h3 {
+	font-size: 20px;
+}
+
+/*===========section7 END*/
+
+/*============section8 start*/
+.section8 {
+	background-image: url(../images/section8.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 550px;
+}
+.section8-heading {
+	margin-top: 16%;
+	padding: 0% 6% 0% 4%;
+}
+.email-form {
+    width: 150px;
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 6px;
+    margin-right: 5px;
+    margin-left: 0%;
+    border: none;
+}
+.send-btn {
+	width: 80px;
+	height: 35px;
+	border-radius: 6px;
+	background-color: #15CAE7;
+	color: #fff;
+	border: none;
+}
+/*============section8 start*/
+
+/*============================== media query start ========================*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.hero-text {
+		padding: 10% 2% 0% 0%;
+	}
+	.sec3-box-text>h2{
+	font-size: 26px;
+	}
+	.sec4-rh-text>h1{
+	font-size: 35px;
+	}
+	.sec5-box-text>h3 {
+	font-size: 26px;
+	}
+	.sec7-box-text>h3 {
+	font-size: 26px;
+	}
+	.sec5-box-img {
+		margin-top: 0%;
+	}
+	.sec7-box-img {
+		margin-top: 0%;
+	}
+
+
+
+}
